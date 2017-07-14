@@ -1,0 +1,73 @@
+# TODO: use environment variables where possible
+
+# Util {{{
+
+  # list dir contents (all with human-readable size)
+  alias l='ls'
+  alias la='ls -lAh'
+  alias ll='ls -lh'
+  alias ls='ls -Gh'
+  alias lsa='ls -lah'
+  # shortcut for vim
+  alias v="vim"
+  # shortcut to trash (safe rm)
+  alias t="trash"
+  # shortcut for clearing screen
+  alias c='clear'
+  # shortcut for clearing screen and dispalying dir contents
+  alias cl='clear && l'
+  # move up one directory
+  alias ..="cd .."
+  # shortcut to open sublime
+  alias s="subl"
+
+# }}}
+
+# Config {{{
+
+  # edit aliases
+  alias ealias='s $ALIASES'
+  alias cdscripts="cd $DOTFILES/scripts"
+  # make sudo check if the next command is an alias
+  alias sudo="sudo "
+  # edit .slate
+  alias slate="s ~/.slate"
+
+  # zsh {{{
+
+    # edit zsh config
+    alias ezsh="s ~/.zshrc"
+    # source zsh config
+    alias szsh="source ~/.zshrc"
+
+  # }}}
+
+  # bash {{{
+
+    # edit bash profile (this file)
+    alias ebp="s ~/.bash_profile"
+    # source bash profile
+    alias sbp="source ~/.bash_profile"
+
+  # }}}
+
+# }}}
+
+# Dev {{{
+
+  # fast git status
+  alias g='git status'
+  # commit with message
+  alias gcm='git commit -m'
+  # git add
+  alias gadd='git add'
+  # clean previously removed files
+  alias gitclean='git rm($git ls-files --deleted)'
+  # git log
+  alias gl='git l'
+  # git flow
+  alias f='git flow'
+  # edit .gitconfig
+  alias egrc="s ~/.gitconfig"
+
+# }}}

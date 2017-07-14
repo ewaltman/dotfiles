@@ -1,0 +1,34 @@
+[alias]
+  co = checkout
+  b = branch
+  ba = branch -a
+  c = commit -m
+  gcm = commit -m
+  ca = commit -am
+  d = diff
+  dc = diff --cached
+  g = log --graph
+  l = log --graph --pretty=oneline --abbrev-commit
+  s = status
+  mt = mergetool
+	unstage = reset HEAD --
+  undo = reset --soft HEAD^
+  nuke = reset --hard HEAD^
+  blast = reset --hard HEAD
+  gr = log --graph --full-history --date=short --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"
+[color]
+	ui = true
+[user]
+	name = ewaltman
+	email = evan@crowdsurf.io
+[core]
+	excludesfile = /Users/evan/.gitignore_global
+	autocrlf = input
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+[credential]
+	helper = osxkeychain
+[merge]
+  tool = "kdiff3"
+[mergetool "kdiff3"]
+  path = "/Applications/kdiff3.app/Contents/MacOS/kdiff3"
