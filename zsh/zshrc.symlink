@@ -58,7 +58,7 @@ PATH=$PATH:$HOME/bin
 
 EDITOR='subl -w'
 
-DEFAULT_USER='evan'
+DEFAULT_USER='evanaltman'
 
 # Source local settings for machine-specific stuff
 source $HOME/.zshrc.local
