@@ -52,7 +52,7 @@ install`. This is so you can keep everything versioned in the repo.
     One such font is included in `./assets/fonts/Inconsolata-dz-Powerline.otf`.
 
 * For an iTerm color theme, I use Monokai.
-  - Download monokai [here](https://github.com/stephenway/monokai.terminal)
+  - Download monokai [here](https://github.com/stephenway/monokai.terminal).
 
 Thank You
 ------
