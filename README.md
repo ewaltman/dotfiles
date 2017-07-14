@@ -7,9 +7,8 @@ Install
 -------
 
 1. Install the external dependencies:
-  * [spf13-vim][1]
-  * [oh-my-zsh][2]
-  * [Powerline][4]
+  * [oh-my-zsh][1]
+  * [Powerline][2]
 
 2. Run
 
@@ -37,13 +36,13 @@ install`. This is so you can keep everything versioned in the repo.
 
 ### Shell ###
 
-* I use `zsh` (rather than `bash`), with [oh-my-zsh][2].
+* I use `zsh` (rather than `bash`), with [oh-my-zsh][1].
 
 * Every `*.zsh` file gets sourced into `zsh`. The idea is to split `zsh`
   configuration into separate files and categories, rather than having a
   monolithic `.zshrc`.
 
-* The prompt is supplied by [Powerline][4] (I just use the default theme).
+* The prompt is supplied by [Powerline][2] (I just use the default theme).
 
 * Aliases are defined in `aliases.symlink`.
 
@@ -51,7 +50,7 @@ install`. This is so you can keep everything versioned in the repo.
 
   - In order for the `zsh` prompt to render properly, you need to set up your
     terminal to use a powerline-enabled font. Install one of the fonts
-    [here](https://github.com/Lokaltog/powerline-fonts) and then set it as the
+    [here][4] and then set it as the
     font in `iTerm > Preferences > Profiles > Text`.
     There's a few special files in the hierarchy.
 
@@ -61,3 +60,8 @@ Thanks
 
 The structure and content of this repo is inspired by @holman's [dotfiles][3];
 the Rakefile is entirely his, and so are parts of this README.
+
+[1]: https://github.com/spf13/spf13-vi://github.com/robbyrussell/oh-my-zsh "oh-my-zsh"
+[2]: https://github.com/holman/dotfiles "holman/dotfiles"
+[3]: https://github.com/powerline/powerline "Powerline"
+[4]: https://gist.github.com/qrush/1595572 "powerline-fonts"
