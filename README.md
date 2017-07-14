@@ -57,6 +57,6 @@ Thank You
 The structure and content of this repo is inspired by @holman's [dotfiles](https://github.com/holman/dotfiles);
 the Rakefile is entirely his, and so are parts of this README.
 
-[1]: https://github.com/spf13/spf13-vi://github.com/robbyrussell/oh-my-zsh "oh-my-zsh"
+[1]: https://github.com/robbyrussell/oh-my-zsh "oh-my-zsh"
 [2]: https://github.com/powerline/powerline "Powerline"
 [3]: https://gist.github.com/qrush/1595572 "powerline-fonts"
