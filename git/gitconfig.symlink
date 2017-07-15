@@ -22,7 +22,7 @@
 	name = ewaltman
 	email = evan@crowdsurf.io
 [core]
-	excludesfile = /Users/evan/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
